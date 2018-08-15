@@ -30,6 +30,7 @@
         "libs/music",
         "libs/music---pwm",
         "libs/music---linux",
+        "libs/mixer---stm32",
         "libs/device"
     ],
     "compile": {
