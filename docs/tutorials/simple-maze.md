@@ -1,4 +1,4 @@
-# Getting started
+# Simple Maze
 
 ## Introduction @unplugged
 
