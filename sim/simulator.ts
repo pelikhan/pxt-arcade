@@ -73,10 +73,10 @@ namespace pxsim {
         public controlsDiv: HTMLDivElement;
         public canvas: HTMLCanvasElement;
         public stats: HTMLElement;
+        public pointerStats: HTMLElement;
         public screen: Uint32Array;
         public startTime = Date.now()
         public screenState: ScreenState
-        private lastScreenshotTime = 0;
         private view: ScreenView;
 
         private controls: ControlPad;
@@ -146,6 +146,8 @@ namespace pxsim {
             this.canvas = document.getElementById("paint-surface") as HTMLCanvasElement;
             this.stats = document.getElementById("debug-stats");
             this.stats.className = "stats no-select"
+            this.pointerStats = document.getElementById("pointer-stats");
+            this.pointerStats.className = "stats no-select"
             this.canvas.width = 16;
             this.canvas.height = 16;
             this.id = msg.id;
