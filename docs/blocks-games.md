@@ -21,6 +21,13 @@ Here are some fun programs for your @boardname@!
   "imageUrl": "/static/examples/space-destroyer.png"
 },
 {
+  "name": "Space Destroyer 2 ",
+  "description": "Destroy the Asteroids with a friend",
+  "url":"/examples/space-destroyer-2-players",
+  "cardType": "example",
+  "imageUrl": "/static/examples/space-destroyer-2-players.gif"
+},
+{
   "name": "Eat the Fruit",
   "description": "Don't get hit by the flying junk food",
   "url":"/examples/eat-the-fruit",
